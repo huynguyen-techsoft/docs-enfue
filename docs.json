@@ -46,7 +46,9 @@
               "onboarding/reporting",
               "onboarding/branding",
               "onboarding/job-posting",
-              "onboarding/sourcing"
+              "onboarding/sourcing",
+              "onboarding/processing",
+              "onboarding/hris"
             ]
           }
         ],
