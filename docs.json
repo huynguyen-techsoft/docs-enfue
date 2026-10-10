@@ -118,16 +118,10 @@
       },
       {
         "tab": "Integrations",
-        "groups": [
-          {
-            "group": "Integrations",
-            "icon": "plug",
-            "pages": [
-              "integrations/overview",
-              "integrations/connected-tools",
-              "integrations/chrome-extension"
-            ]
-          }
+        "pages": [
+          "integrations/overview",
+          "integrations/connected-tools",
+          "integrations/chrome-extension"
         ]
       },
       {
