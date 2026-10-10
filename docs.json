@@ -181,7 +181,9 @@
             "group": "Help",
             "icon": "circle-question",
             "pages": [
-              "help/overview"
+              "help/overview",
+              "help/faq",
+              "help/glossary"
             ]
           }
         ]
