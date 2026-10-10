@@ -1,0 +1,147 @@
+---
+title: "Evaluations"
+sidebarTitle: "Evaluations"
+description: "Ask interviewers and hiring managers to evaluate applicants, track who has responded, and see how your team rates candidates."
+icon: "star-half-stroke"
+---
+
+Evaluations are how your team records what they think of an applicant: star ratings, a recommendation, and a written note. The **Evaluations** page lists every evaluation you've requested and shows whether it's been done. Open it from **Hiring → Evaluations** in the main menu.
+
+## Evaluation Overview
+
+The panel on the right summarizes evaluation activity across your workspace:
+
+- **Total**: the number of evaluations requested. The ring shows how many are **In Progress**, **Pending**, and **Completed**.
+- **Average Score**: the average **Overall fit for the role** rating across completed evaluations, out of 5, with the number of evaluations it's based on. Other criteria, such as **Technical Skills** or **Communication**, don't count toward it.
+- **Top Interviewers**: the team members who have submitted the most evaluations. The **Peer review** count next to each name is the number of evaluations they've submitted, which other interviewers can read in the **Peer review** tab. Click **View all** to see everyone.
+
+### Evaluation statuses
+
+Every evaluation request moves through three statuses:
+
+| Status | Meaning |
+| --- | --- |
+| **In Progress** | The request has been sent and the interviewer hasn't submitted yet, but there's still time. |
+| **Pending** | The deadline has passed and the interviewer still hasn't submitted. These need following up. |
+| **Completed** | The interviewer has submitted the evaluation. |
+
+## The evaluation list
+
+| Column | What it shows |
+| --- | --- |
+| **Candidate** | The applicant being evaluated. |
+| **Job** | The job they applied for. |
+| **Stage** | Their current hiring stage. |
+| **Interviewer** | The person asked to evaluate them. |
+| **Requester** | The person who asked for the evaluation. |
+| **Match score** | The applicant's AI match score, out of 100. See [AI Review](/hiring/applicants/applicant-profile#ai-review). |
+| **Status** | **In Progress**, **Pending** (deadline missed), or **Completed**. See [Evaluation statuses](#evaluation-statuses). |
+| **Requested** | When the evaluation was requested. |
+
+Filter the list with **Search**, **Jobs**, **Stages**, **Interviewer**, and **Status**. Click **Clear all** to remove every filter. The count on the right, for example **10/422**, shows how many evaluations match your filters out of the total.
+
+<Tip>
+  Filter by **Status: Pending** to see which evaluations are overdue, then add **Interviewer** to see who to chase before a hiring decision.
+</Tip>
+
+## Request an evaluation
+
+You can request evaluations from the **Evaluations** page, from an applicant card in the [Pipeline](/hiring/pipeline#quick-actions-on-a-card), from the **Action** column on the [Applicants](/hiring/applicants/overview) page, or from the [applicant profile](/hiring/applicants/applicant-profile). Interviewers you add when you [schedule an interview](/hiring/interviews#schedule-an-interview) are asked to evaluate automatically.
+
+Click **Request Evaluations** and choose how to send the request.
+
+<Tabs>
+  <Tab title="Request via Email">
+    Enfue emails each interviewer a link to the evaluation.
+
+    <Steps>
+      <Step title="Choose the applicants">
+        Under **Applicants**, click **Add** and pick one or more applicants.
+      </Step>
+      <Step title="Choose the interviewers">
+        Under **Interviewers**, click **Add** and pick who should evaluate them.
+      </Step>
+      <Step title="Add CC recipients (optional)">
+        Under **CC**, pick people from your directory or type an email address, up to 20. Each CC recipient receives a copy of every interviewer's request. Addresses already invited are skipped.
+      </Step>
+      <Step title="Choose what interviewers can see">
+        Under **Evaluation options**, tick **Show all comments about this applicant** and/or **Show evaluation history and documents**.
+      </Step>
+      <Step title="Send">
+        Click **Request Evaluations**.
+      </Step>
+    </Steps>
+  </Tab>
+  <Tab title="Request via Link">
+    Enfue creates a link you can share any way you like, for example in Zalo, Slack, or Teams, without sending an email. This is useful for hiring managers outside your HR team who don't check email often.
+
+    <Steps>
+      <Step title="Choose applicants, interviewers, and options">
+        Fill in **Applicants**, **Interviewers**, and **Evaluation options** as you would for an email request.
+      </Step>
+      <Step title="Generate the link">
+        Enfue generates a link, such as `https://app.enfue.com/applicant/evaluation/...`, and shows its code and expiry date. By default, links expire after **3 days**. Admins can change how long links stay valid.
+      </Step>
+      <Step title="Share it">
+        Click **Copy** next to the link, or **Copy all** to copy every link at once, and send it to the interviewer. Click **Generate another link** to create a new one.
+      </Step>
+    </Steps>
+
+    <Warning>
+      Anyone with the link can open the evaluation until it expires, including the applicant's CV and details. Only share it with the person who should evaluate.
+    </Warning>
+  </Tab>
+</Tabs>
+
+## Completing an evaluation (for interviewers)
+
+When an interviewer opens their link, they see a page with your company's name at the top. They don't need to find the applicant in Enfue themselves.
+
+- **On the left**: the applicant's **cover letter** and **CV**. The CV viewer lets them zoom, rotate, move between pages, download, and view it in full screen.
+- **On the right**: the applicant's name, job, application date, and current **Stage**, with five tabs.
+
+| Tab | What it shows |
+| --- | --- |
+| **Assessment** | The evaluation form to fill in. |
+| **AI Review** | The applicant's AI match score, factor breakdown, and AI summary. |
+| **Documents** | Other documents the applicant attached. |
+| **Comments** | Your team's comments about the applicant, if **Show all comments** was turned on. |
+| **Peer review** | Evaluations from other interviewers, if **Show evaluation history** was turned on. |
+
+If they've been asked to evaluate several applicants, the counter at the top (for example **1/22**) shows where they are, and **Previous** and **Next** move between applicants.
+
+### Fill in the assessment
+
+<Steps>
+  <Step title="Rate the applicant">
+    Give stars from 1 to 5 for each criterion, for example **Technical Skills**, **Communication**, **Culture Fit**, **English Proficiency**, and **Overall fit for the role**.
+  </Step>
+  <Step title="Fill in any other fields">
+    For example, pick the applicant's **Level**. The fields depend on how your workspace is set up.
+  </Step>
+  <Step title="Give a recommendation">
+    Click **Recommend** or **Do not Recommend**. This is required.
+  </Step>
+  <Step title="Write an evaluation note">
+    Explain your reasoning in **Evaluation note**, up to 5,000 characters. This is required.
+  </Step>
+  <Step title="Attach a file (optional)">
+    Click **Attach file** to add, for example, a test result or interview notes.
+  </Step>
+  <Step title="Submit">
+    Click **Submit Evaluation**. The evaluation's status changes to **Completed**, and it appears in the applicant's profile.
+  </Step>
+</Steps>
+
+<Tip>
+  A good evaluation note says _why_. "Strong React skills shown in the live task, but couldn't explain .NET basics" is far more useful to the hiring manager than "Good candidate."
+</Tip>
+
+## Where evaluations appear
+
+- In the applicant's profile, under **Evaluations**.
+- As thumbs-up and thumbs-down counts on the [Applicants](/hiring/applicants/overview) table and [Pipeline](/hiring/pipeline) cards: one for each **Recommend** or **Do not Recommend**.
+
+## Customize the evaluation form
+
+The criteria and fields in the assessment are set up for your whole workspace in [Custom Fields for Evaluation](/settings/applications/custom-fields-for-evaluation).

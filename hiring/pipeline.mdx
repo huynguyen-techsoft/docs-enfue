@@ -1,0 +1,150 @@
+---
+title: "Pipeline"
+sidebarTitle: "Pipeline"
+description: "See every job's applicants on one board, grouped by job and stage, and take quick actions on any applicant card."
+icon: "table-columns"
+---
+
+The **Pipeline** page shows your applicants as cards on a board. Each column is a hiring stage, and each row is a job. It's the fastest way to see where every candidate stands across all your open jobs. Open it from **Hiring → Pipeline** in the main menu.
+
+## How the board is laid out
+
+- **Columns** are your hiring stages, such as **Applied**, **Matching Interview**, **Ability Interview**, **Offering**, and **Hired**. The number at the top of each column is the total number of applicants in that stage across all jobs shown.
+- **Rows** are your jobs. Each row header shows the job title, location, visibility badge (for example **Public**), and how many applicants it has. Click the arrow at the start of a row to collapse or expand it.
+
+The count at the top right, for example **91/104 applicants**, shows how many applicants match your filters out of the total.
+
+<Note>
+The stages come from your workspace settings. There are always five, and you can rename them in [Applicant Stages](/settings/applications/applicant-stages).
+</Note>
+
+## Reading an applicant card
+
+Each card shows:
+
+- The applicant's **name and photo**.
+- Their **match score** as a percentage in the top-right corner. See [Match score](/hiring/jobs/job-applicants#match-score).
+- **When they were last updated**, for example **2d** (2 days ago) or **1w** (1 week ago).
+- A red **double arrow** if they are marked as **high priority**.
+- The **date of their next interview**, for example **Oct 13**, if one is scheduled.
+- Their **evaluations**: the number of negative (thumbs down) and positive (thumbs up) evaluations, once they have any.
+- Their **assignee's** photo in the bottom-right corner.
+
+Click a card to open the applicant's profile.
+
+## Move an applicant to another stage
+
+Drag the applicant's card and drop it in another column. You can move applicants forward to the next stage or back to a previous one. The stage counts at the top of the board update straight away.
+
+<Tip>
+  You can also move an applicant from their profile with **Next stage**. See [The applicant profile](/hiring/applicants/applicant-profile#actions).
+</Tip>
+
+## Quick actions on a card
+
+Hover over a card to show a row of action buttons underneath it.
+
+| Button | Action | What it does |
+| --- | --- | --- |
+| Calendar | **Schedule appointment** | Book an interview with the applicant. |
+| Thumbs up/down | **Quick evaluation** | Submit your own evaluation of the applicant. |
+| Paper plane | **Request Evaluations** | Ask colleagues to evaluate the applicant. |
+| Person | **Change assignee** | Make someone else responsible for the applicant. |
+| Flag | **High priority** | Mark the applicant as high priority. A red double arrow then appears on their card. |
+| Circle with a line | **Disqualify** | Remove the applicant from the hiring process. |
+
+The same actions are available from the **Action** column on the [Applicants](/hiring/applicants/overview) page.
+
+### Schedule an interview
+
+<Steps>
+  <Step title="Open the form">
+    Hover over the card and click **Schedule appointment**. The **Schedule interview** panel opens with the applicant's name and email at the top.
+  </Step>
+  <Step title="Set the time">
+    Choose the **Date**, **Start time**, and **End time**.
+  </Step>
+  <Step title="Add interviewers">
+    Under **Interviewers**, click **Add** and pick the people who will run the interview. They'll be asked to submit an evaluation afterwards.
+
+    Under **Evaluation options**, decide what interviewers can see:
+    - **Show all comments about this applicant**
+    - **Show evaluation history and documents**: previous evaluations and attached documents.
+  </Step>
+  <Step title="Choose the format">
+    Pick **In-person** or **Video call**. For in-person interviews, check the **Location** (your office address is filled in) and optionally pick a room under **Book meeting room**. Rooms are set up in [Rooms](/settings/users/rooms).
+  </Step>
+  <Step title="Describe the interview">
+    Pick an interview template under **Use interview template**, or enter a **Title** and **Description** yourself. The title is required.
+  </Step>
+  <Step title="Save">
+    Save the appointment. It appears on the card as a date and in [Interviews](/hiring/interviews).
+  </Step>
+</Steps>
+
+### Submit a quick evaluation
+
+Hover over the card and click **Quick evaluation**. Fill in the evaluation form, which can include star ratings (for example **Technical Skills**, **Communication**, **Culture Fit**, and **Overall fit for the role**) and other fields your workspace uses.
+
+Two things are always required:
+
+- **Overall Recommendation**: click **Recommend** or **Do not Recommend**.
+- **Evaluation note**: a short written explanation.
+
+The fields in this form are set up in [Custom Fields for Evaluation](/settings/applications/custom-fields-for-evaluation).
+
+### Request evaluations from colleagues
+
+1. Hover over the card and click **Request Evaluations**.
+2. Choose how to send the request: **Request via Email** or **Request via Link**.
+3. Under **Interviewers**, click **Add** and pick who should evaluate the applicant.
+4. Optionally, add people under **CC** (up to 20). Each receives a copy of the request. You can pick them from your directory or type an email address.
+5. Choose what interviewers can see under **Evaluation options**.
+6. Click **Request Evaluations**.
+
+### Change the assignee
+
+Hover over the card and click **Change assignee**. Pick a new person under **Assignee**, or click **Assign to me**.
+
+### Disqualify an applicant
+
+1. Hover over the card and click **Disqualify**.
+2. Choose a **Disqualified reason**. The reasons come from [Disqualified Reasons](/settings/applications/disqualified-reasons).
+3. Click **Save**.
+
+<Warning>
+Disqualifying removes the applicant from the active pipeline. To find them again, use the **Inactive applicants** filter on the [Applicants](/hiring/applicants/overview#the-filter-panel) page.
+</Warning>
+
+## Assign new applicants automatically
+
+Each job row has an **Auto assign to** setting on the right, showing the person's photo. New applicants for that job are assigned to this person automatically, so nobody has to hand them out. Click it to choose someone else.
+
+## Search and filter
+
+| Control | What it does |
+| --- | --- |
+| **Search** | Find an applicant by name. |
+| **Jobs** | Tick the jobs you want on the board. |
+| **Stages** | Tick the stages (columns) you want to see. |
+| **Assignees** | Show only applicants assigned to particular team members. |
+| **Filters** | Open the filter panel (see below). |
+| **Clear all** | Remove every filter. |
+
+The **Filters** panel has two groups.
+
+**Jobs**
+- **Public** / **Internal**: show only public or internal jobs.
+- **Job with applicants**: hide jobs that have no applicants yet. On by default.
+- **Location**: show only jobs in a given location.
+
+**Applicants**
+- **Flagged applicants**
+- **Applicants with evaluations**
+- **Hide not updated for 60+ days**: hide applicants nobody has touched in over 60 days, so the board only shows active work. On by default.
+- **Updates**, **Tags**, and **Due**
+- **Applied Duration**: show applicants who applied between a start date and an end date.
+
+<Tip>
+If you can't find an applicant you expect to see, check whether **Hide not updated for 60+ days** is on.
+</Tip>

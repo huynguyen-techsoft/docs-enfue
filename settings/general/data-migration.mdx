@@ -1,0 +1,61 @@
+---
+title: "Data migration"
+description: "Move your candidates, CVs, and evaluations into Enfue from spreadsheets, PDF files, or another system."
+icon: "file-import"
+---
+
+**Data Migration** brings your existing candidates into Enfue in bulk, for example when you move from another recruitment system or a set of spreadsheets. You can also import into a single job from that job's [Data Migration tab](/hiring/jobs/data-migration).
+
+Open **Settings → Data Migration** and choose one of three import types.
+
+<Tabs>
+  <Tab title="Resume PDFs">
+    Import CVs as PDF files, one by one or bundled in a `.zip` file.
+
+    1. Choose **Resume PDFs (.zip/.pdf)**.
+    2. Under **Select job to import the data**, pick the job these candidates applied for.
+    3. Drag and drop your PDF or ZIP files, or click **browse**.
+    4. Check your files in the panel on the right. Use **All**, **PDF**, and **ZIP** to filter them, and **Search uploaded files** to find one.
+    5. Click **Upload**.
+
+    Enfue reads each CV and creates an applicant from it.
+  </Tab>
+  <Tab title="Candidate Spreadsheet">
+    Import a list of candidates from a `.csv`, `.xls`, or `.xlsx` file.
+
+    1. Choose **Candidate Spreadsheet (.csv/.xls/.xlsx)**.
+    2. Not sure how to lay out your file? Click **Download an example template**, and copy your candidates into it.
+    3. Drag and drop your file, or click **browse**.
+    4. Tick **Invite them to join Enfue and chat with you directly** if you'd like to invite these candidates to create an Enfue account. Once they join, you can message them in [Messenger](/hiring/messenger).
+    5. Click **Upload**.
+  </Tab>
+  <Tab title="CVs & Evaluations">
+    Bring over candidates together with your team's evaluations of them, for example from your previous system.
+
+    1. Choose **CVs & Evaluations (.zip)**.
+    2. Under **Select job to import the data**, pick the job.
+    3. Prepare one `.zip` file laid out as shown below.
+    4. Drag and drop the ZIP file, or click **browse**.
+    5. Click **Upload**.
+
+    The ZIP file must contain a folder for each applicant, and each applicant's folder must contain their **CV as a PDF** and an **evaluation as a Word file**:
+
+    ```text
+    Front-End Engineer.zip
+    └── Front-End Engineer/
+        ├── 1 - Linh Nguyen/
+        │   ├── Evaluation note.docx
+        │   └── Resume_Linh-Nguyen_FE.pdf
+        ├── 2 - Minh Tran/
+        │   ├── Evaluation note.docx
+        │   └── Resume_Minh-Tran_FE.pdf
+        └── 3 - Mai Pham/
+            ├── Evaluation note.docx
+            └── Resume_Mai-Pham_FE.pdf
+    ```
+  </Tab>
+</Tabs>
+
+<Tip>
+  After a large import, check the job's [Duplicates](/hiring/jobs/duplicates) tab for candidates who were already in Enfue.
+</Tip>
