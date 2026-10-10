@@ -203,14 +203,8 @@
       },
       {
         "tab": "What's New",
-        "groups": [
-          {
-            "group": "What's New",
-            "icon": "sparkles",
-            "pages": [
-              "whats-new/changelog"
-            ]
-          }
+        "pages": [
+          "whats-new/changelog"
         ]
       }
     ]
