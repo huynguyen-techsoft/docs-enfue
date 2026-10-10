@@ -221,7 +221,12 @@
       {
         "tab": "Mobile",
         "pages": [
-          "mobile/overview"
+          "mobile/overview",
+          "mobile/home",
+          "mobile/inbox",
+          "mobile/messenger",
+          "mobile/applicants",
+          "mobile/jobs"
         ]
       },
       {
