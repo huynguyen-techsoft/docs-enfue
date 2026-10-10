@@ -31,14 +31,13 @@
         "tab": "Guides",
         "pages": [
           {
-            "group": "Main menu",
-            "icon": "house",
+            "group": "Your day",
+            "icon": "sun",
             "pages": [
               "hiring/home",
-              "hiring/reports",
+              "hiring/tasks",
               "hiring/calendar",
-              "hiring/inbox",
-              "hiring/messenger"
+              "hiring/notifications"
             ]
           },
           {
@@ -66,7 +65,6 @@
             "group": "Hiring",
             "icon": "user-group",
             "pages": [
-              "hiring/tasks",
               "hiring/pipeline",
               {
                 "group": "Applicants",
@@ -82,15 +80,14 @@
               "hiring/interviews",
               "hiring/evaluations",
               "hiring/talent-pools",
-              "hiring/hired",
-              "hiring/notes"
+              "hiring/hired"
             ]
           },
           {
-            "group": "Activity",
-            "icon": "bell",
+            "group": "Insights",
+            "icon": "chart-line",
             "pages": [
-              "hiring/notifications",
+              "hiring/reports",
               "hiring/timeline"
             ]
           },
@@ -99,6 +96,15 @@
             "icon": "mobile",
             "pages": [
               "mobile/overview"
+            ]
+          },
+          {
+            "group": "Communication",
+            "icon": "comments",
+            "pages": [
+              "hiring/inbox",
+              "hiring/messenger",
+              "hiring/notes"
             ]
           }
         ]
