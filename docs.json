@@ -38,6 +38,7 @@
           "index",
           "get-started/sign-up",
           "quickstart",
+          "get-started/how-enfue-works",
           {
             "group": "Onboarding",
             "icon": "list-check",
