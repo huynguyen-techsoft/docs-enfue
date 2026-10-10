@@ -36,6 +36,7 @@
         "tab": "Get Started",
         "pages": [
           "index",
+          "get-started/sign-up",
           "quickstart",
           "onboarding/overview"
         ]
