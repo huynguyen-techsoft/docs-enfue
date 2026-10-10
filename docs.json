@@ -133,6 +133,7 @@
           "integrations/chrome-extension",
           "integrations/openai",
           "integrations/claude",
+          "integrations/elevenlabs",
           "integrations/zoom"
         ]
       },
