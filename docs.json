@@ -35,16 +35,9 @@
       {
         "tab": "Get Started",
         "pages": [
-          {
-            "group": "Get Started",
-            "icon": "rocket",
-            "pages": [
-              "index",
-              "quickstart",
-              "onboarding/overview",
-              "mobile/overview"
-            ]
-          }
+          "index",
+          "quickstart",
+          "onboarding/overview"
         ]
       },
       {
@@ -191,6 +184,12 @@
               "payments/invoices"
             ]
           }
+        ]
+      },
+      {
+        "tab": "Mobile",
+        "pages": [
+          "mobile/overview"
         ]
       },
       {
