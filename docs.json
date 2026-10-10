@@ -266,7 +266,10 @@
           {
             "group": "2025",
             "icon": "calendar",
-            "pages": []
+            "pages": [
+              "whats-new/2025-12",
+              "whats-new/2025-11"
+            ]
           }
         ],
         "icon": "sparkles"
