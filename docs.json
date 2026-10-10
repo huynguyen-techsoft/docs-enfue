@@ -38,7 +38,15 @@
           "index",
           "get-started/sign-up",
           "quickstart",
-          "onboarding/overview"
+          {
+            "group": "Onboarding",
+            "icon": "list-check",
+            "pages": [
+              "onboarding/overview",
+              "onboarding/reporting",
+              "onboarding/branding"
+            ]
+          }
         ],
         "icon": "rocket"
       },
