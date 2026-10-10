@@ -22,7 +22,8 @@
             "pages": [
               "index",
               "quickstart",
-              "onboarding/overview"
+              "onboarding/overview",
+              "mobile/overview"
             ]
           }
         ]
@@ -41,61 +42,47 @@
             ]
           },
           {
-            "group": "Job Management",
+            "group": "Jobs",
             "icon": "briefcase",
             "pages": [
               "hiring/jobs/overview",
               "hiring/jobs/create-a-job",
+              "hiring/jobs/job-integrations",
               "hiring/jobs/job-applicants",
               "hiring/jobs/duplicates",
               "hiring/jobs/job-report",
-              "hiring/jobs/talentspike",
-              "hiring/jobs/data-migration",
-              "hiring/jobs/talent-discovery"
+              "hiring/jobs/data-migration"
             ]
           },
           {
-            "group": "Employer Branding",
-            "icon": "building",
+            "group": "Sourcing",
+            "icon": "magnifying-glass",
             "pages": [
-              "workplace/career-page"
+              "workplace/career-page",
+              "hiring/talent-pools",
+              "hiring/jobs/talent-discovery",
+              "hiring/jobs/talentspike"
             ]
           },
           {
-            "group": "Hiring",
+            "group": "Applicants",
+            "icon": "users",
+            "pages": [
+              "hiring/applicants/overview",
+              "hiring/applicants/applicant-profile",
+              "hiring/applicants/add-applicants",
+              "hiring/applicants/tags",
+              "hiring/applicants/bulk-actions"
+            ]
+          },
+          {
+            "group": "Hiring process",
             "icon": "user-group",
             "pages": [
               "hiring/pipeline",
-              {
-                "group": "Applicants",
-                "icon": "users",
-                "pages": [
-                  "hiring/applicants/overview",
-                  "hiring/applicants/applicant-profile",
-                  "hiring/applicants/tags",
-                  "hiring/applicants/add-applicants",
-                  "hiring/applicants/bulk-actions"
-                ]
-              },
               "hiring/interviews",
               "hiring/evaluations",
-              "hiring/talent-pools",
               "hiring/hired"
-            ]
-          },
-          {
-            "group": "Insights",
-            "icon": "chart-line",
-            "pages": [
-              "hiring/reports",
-              "hiring/timeline"
-            ]
-          },
-          {
-            "group": "Mobile",
-            "icon": "mobile",
-            "pages": [
-              "mobile/overview"
             ]
           },
           {
@@ -105,6 +92,14 @@
               "hiring/inbox",
               "hiring/messenger",
               "hiring/notes"
+            ]
+          },
+          {
+            "group": "Insights",
+            "icon": "chart-line",
+            "pages": [
+              "hiring/reports",
+              "hiring/timeline"
             ]
           }
         ]
@@ -117,7 +112,6 @@
             "icon": "plug",
             "pages": [
               "integrations/overview",
-              "hiring/jobs/job-integrations",
               "integrations/connected-tools",
               "integrations/chrome-extension"
             ]
