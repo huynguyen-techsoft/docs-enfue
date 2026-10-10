@@ -121,7 +121,13 @@
         "pages": [
           "integrations/overview",
           "integrations/connected-tools",
-          "integrations/chrome-extension"
+          "integrations/chrome-extension",
+          "integrations/microsoft-teams",
+          "integrations/microsoft-calendar",
+          "integrations/google-meet",
+          "integrations/google-calendar",
+          "integrations/google-maps",
+          "integrations/google-locations"
         ]
       },
       {
