@@ -97,6 +97,7 @@
             "pages": [
               "hiring/applicants/overview",
               "hiring/applicants/applicant-profile",
+              "hiring/applicants/ai-review",
               "hiring/applicants/add-applicants",
               "hiring/applicants/tags",
               "hiring/applicants/bulk-actions"
@@ -109,6 +110,7 @@
               "hiring/pipeline",
               "hiring/interviews",
               "hiring/evaluations",
+              "hiring/disqualify",
               "hiring/hired"
             ]
           },
