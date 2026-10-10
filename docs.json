@@ -12,6 +12,25 @@
     "dark": "/images/favicon.ico"
   },
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Go to App",
+          "href": "https://app.enfue.com",
+          "icon": "arrow-up-right-from-square"
+        },
+        {
+          "anchor": "Report an Issue",
+          "href": "https://app.enfue.com/job/enfuehelpdesk/issuereport?view=public",
+          "icon": "bug"
+        },
+        {
+          "anchor": "Suggest a Feature",
+          "href": "https://app.enfue.com/job/enfuehelpdesk/featuresuggestion?view=public",
+          "icon": "lightbulb"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Get Started",
