@@ -48,7 +48,8 @@
               "onboarding/job-posting",
               "onboarding/sourcing",
               "onboarding/processing",
-              "onboarding/hris"
+              "onboarding/hris",
+              "onboarding/settings"
             ]
           }
         ],
