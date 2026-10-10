@@ -160,14 +160,9 @@
               "settings/general/data-migration",
               "settings/general/appearance"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Billing",
-        "groups": [
+          },
           {
-            "group": "Billing",
+            "group": "Payments",
             "icon": "credit-card",
             "pages": [
               "payments/overview",
