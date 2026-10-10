@@ -246,7 +246,20 @@
       {
         "tab": "What's New",
         "pages": [
-          "whats-new/changelog"
+          "whats-new/changelog",
+          {
+            "group": "2026",
+            "icon": "calendar",
+            "pages": [
+              "whats-new/2026-10",
+              "whats-new/2026-09"
+            ]
+          },
+          {
+            "group": "2025",
+            "icon": "calendar",
+            "pages": []
+          }
         ],
         "icon": "sparkles"
       }
