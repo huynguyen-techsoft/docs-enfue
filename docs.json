@@ -132,14 +132,8 @@
       },
       {
         "tab": "Settings",
-        "groups": [
-          {
-            "group": "Settings",
-            "icon": "gear",
-            "pages": [
-              "settings/overview"
-            ]
-          },
+        "pages": [
+          "settings/overview",
           {
             "group": "Applications",
             "icon": "file-lines",
@@ -194,16 +188,10 @@
       },
       {
         "tab": "Help",
-        "groups": [
-          {
-            "group": "Help",
-            "icon": "circle-question",
-            "pages": [
-              "help/overview",
-              "help/faq",
-              "help/glossary"
-            ]
-          }
+        "pages": [
+          "help/overview",
+          "help/faq",
+          "help/glossary"
         ]
       },
       {
