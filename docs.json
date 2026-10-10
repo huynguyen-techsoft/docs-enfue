@@ -39,7 +39,8 @@
           "get-started/sign-up",
           "quickstart",
           "onboarding/overview"
-        ]
+        ],
+        "icon": "rocket"
       },
       {
         "tab": "Guides",
@@ -115,7 +116,8 @@
               "hiring/timeline"
             ]
           }
-        ]
+        ],
+        "icon": "book-open"
       },
       {
         "tab": "Integrations",
@@ -166,7 +168,8 @@
               "integrations/elevenlabs"
             ]
           }
-        ]
+        ],
+        "icon": "plug"
       },
       {
         "tab": "Settings",
@@ -216,7 +219,8 @@
               "payments/invoices"
             ]
           }
-        ]
+        ],
+        "icon": "gear"
       },
       {
         "tab": "Mobile",
@@ -227,7 +231,8 @@
           "mobile/messenger",
           "mobile/applicants",
           "mobile/jobs"
-        ]
+        ],
+        "icon": "mobile"
       },
       {
         "tab": "Help",
@@ -235,13 +240,15 @@
           "help/overview",
           "help/faq",
           "help/glossary"
-        ]
+        ],
+        "icon": "circle-question"
       },
       {
         "tab": "What's New",
         "pages": [
           "whats-new/changelog"
-        ]
+        ],
+        "icon": "sparkles"
       }
     ]
   },
