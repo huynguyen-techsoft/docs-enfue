@@ -122,20 +122,50 @@
         "pages": [
           "integrations/overview",
           "integrations/connected-tools",
-          "integrations/microsoft-teams",
-          "integrations/microsoft-calendar",
-          "integrations/google-meet",
-          "integrations/google-calendar",
-          "integrations/google-maps",
-          "integrations/google-locations",
-          "integrations/slack",
-          "integrations/linkedin",
-          "integrations/job-platforms",
-          "integrations/chrome-extension",
-          "integrations/openai",
-          "integrations/claude",
-          "integrations/elevenlabs",
-          "integrations/zoom"
+          {
+            "group": "Meetings & calendars",
+            "icon": "calendar-days",
+            "pages": [
+              "integrations/microsoft-teams",
+              "integrations/microsoft-calendar",
+              "integrations/google-meet",
+              "integrations/google-calendar",
+              "integrations/zoom"
+            ]
+          },
+          {
+            "group": "Sourcing",
+            "icon": "magnifying-glass",
+            "pages": [
+              "integrations/linkedin",
+              "integrations/job-platforms",
+              "integrations/chrome-extension"
+            ]
+          },
+          {
+            "group": "Maps & locations",
+            "icon": "map-location-dot",
+            "pages": [
+              "integrations/google-maps",
+              "integrations/google-locations"
+            ]
+          },
+          {
+            "group": "Notifications",
+            "icon": "bell",
+            "pages": [
+              "integrations/slack"
+            ]
+          },
+          {
+            "group": "AI",
+            "icon": "wand-magic-sparkles",
+            "pages": [
+              "integrations/openai",
+              "integrations/claude",
+              "integrations/elevenlabs"
+            ]
+          }
         ]
       },
       {
