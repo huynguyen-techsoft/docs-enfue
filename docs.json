@@ -349,6 +349,62 @@
     {
       "source": "/integrations/applicant-sources",
       "destination": "/settings/applications/applicant-source-management"
+    },
+    {
+      "source": "/get-started/hiring-workflow",
+      "destination": "/quickstart"
+    },
+    {
+      "source": "/get-started/ai-in-enfue",
+      "destination": "/hiring/applicants/ai-review"
+    },
+    {
+      "source": "/settings/general/integrations",
+      "destination": "/integrations/connected-tools"
+    },
+    {
+      "source": "/settings/general/profile",
+      "destination": "/workplace/career-page"
+    },
+    {
+      "source": "/overview/home",
+      "destination": "/hiring/home"
+    },
+    {
+      "source": "/overview/reports",
+      "destination": "/hiring/reports"
+    },
+    {
+      "source": "/overview/tasks",
+      "destination": "/hiring/tasks"
+    },
+    {
+      "source": "/communication/inbox",
+      "destination": "/hiring/inbox"
+    },
+    {
+      "source": "/communication/messenger",
+      "destination": "/hiring/messenger"
+    },
+    {
+      "source": "/communication/notes",
+      "destination": "/hiring/notes"
+    },
+    {
+      "source": "/workplace/calendar",
+      "destination": "/hiring/calendar"
+    },
+    {
+      "source": "/workplace/hired",
+      "destination": "/hiring/hired"
+    },
+    {
+      "source": "/activity/notifications",
+      "destination": "/hiring/notifications"
+    },
+    {
+      "source": "/activity/log",
+      "destination": "/hiring/timeline"
     }
   ]
 }
