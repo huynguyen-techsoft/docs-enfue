@@ -1,11 +1,11 @@
 ---
 title: "Enfue Recruiter for Chrome"
 sidebarTitle: "Chrome extension"
-description: "Install the Enfue Recruiter extension for Google Chrome to add candidates while you browse."
+description: "Add candidates from LinkedIn to Enfue in one click, straight from their profile or your connections list, with the Enfue Recruiter extension for Google Chrome."
 icon: "chrome"
 ---
 
-**Enfue Recruiter** is an extension for Google Chrome. It lets you add candidates you find on the web straight into Enfue, without copying their details by hand.
+**Enfue Recruiter** is an extension for Google Chrome that turns LinkedIn into a sourcing tool for Enfue. While you browse LinkedIn, you can add people to Enfue in one click, attach them to a job and talent pool, and skip copying their details by hand.
 
 <Card title="Install Enfue Recruiter" icon="chrome" horizontal href="https://chromewebstore.google.com/detail/enfue-recruiter/bcekhmicopoanpjmnjhljkfchoklepch">
   The official extension on the Chrome Web Store.
@@ -15,15 +15,119 @@ icon: "chrome"
   Only install the extension from this link. It's the official **Enfue Recruiter** extension, published by Enfue. Other extensions with similar names aren't made by Enfue.
 </Warning>
 
-## Install the extension
+## What you can do with it
+
+| You want to | Use |
+| --- | --- |
+| Add one candidate with their full details, including email and phone | [Add a candidate from their profile](#add-a-candidate-from-their-profile) |
+| Add many people quickly while scrolling LinkedIn | [Add people from a list](#add-people-from-a-list) |
+| Add someone when you only have their LinkedIn link | [Add by LinkedIn URL](#add-by-linkedin-url) |
+
+## Install and open the extension
 
 <Steps>
-  <Step title="Open the Chrome Web Store">
-    Open [Enfue Recruiter on the Chrome Web Store](https://chromewebstore.google.com/detail/enfue-recruiter/bcekhmicopoanpjmnjhljkfchoklepch). You can also get there from Enfue: click **Add applicants**, open the **enfue Chrome** tab, and click **Open Google Chrome Extension**.
-  </Step>
   <Step title="Add it to Chrome">
-    Click **Add to Chrome**, then confirm.
+    Open [Enfue Recruiter on the Chrome Web Store](https://chromewebstore.google.com/detail/enfue-recruiter/bcekhmicopoanpjmnjhljkfchoklepch) and click **Add to Chrome**, then confirm. You can also get there from Enfue: click **Add applicants**, open the **enfue Chrome** tab, and click **Open Google Chrome Extension**.
+  </Step>
+  <Step title="Pin it">
+    Click the **Extensions** (puzzle piece) icon in Chrome's toolbar and pin **Enfue Recruiter**, so it's always one click away.
+  </Step>
+  <Step title="Sign in">
+    Make sure you're signed in to Enfue in the same Chrome browser. The extension adds candidates to the workspace you're signed in to.
+  </Step>
+  <Step title="Open the side panel">
+    Go to LinkedIn and click the Enfue Recruiter icon. The **Enfue Recruiter** panel opens on the right of the page.
   </Step>
 </Steps>
 
-For the other ways to add candidates, see [Adding applicants](/hiring/applicants/add-applicants). To connect Enfue with other tools, see [Integrations](/integrations/overview).
+### The side panel
+
+- **The header** shows your Enfue workspace. Click **View All Applicants** to open your [Applicants](/hiring/applicants/overview) list in Enfue.
+- **Profile** tab: a form for adding one person with their details.
+- **Import from LinkedIn** tab: a list for adding several people at once.
+
+Once the extension is installed, LinkedIn also shows an **\+ Add to Enfue** button on profiles and in lists of people, such as your **connections**.
+
+## Add a candidate from their profile
+
+Use this when you want a complete record, with email and phone number.
+
+<Steps>
+  <Step title="Open the person's LinkedIn profile">
+    Open their profile on LinkedIn, then click **\+ Add to Enfue** next to their name, or open the extension's **Profile** tab.
+  </Step>
+  <Step title="Open their contact info">
+    On LinkedIn, click **Contact info** under the person's name. This lets the extension read the email and phone number they share with you.
+  </Step>
+  <Step title="Pull their details">
+    In the **Profile** tab, click **Pull from LinkedIn**. Enfue fills in their photo, **Name**, **Title** (their LinkedIn headline), **Email**, **Phone number**, and **Social Link**.
+  </Step>
+  <Step title="Check and complete the form">
+    Correct anything that's wrong, and fill in what's missing. **Name** is the only required field. To start over, click **Clear form**.
+  </Step>
+  <Step title="Add them">
+    Click **Add to enfue**. The candidate appears in your [Applicants](/hiring/applicants/overview) list.
+  </Step>
+</Steps>
+
+<Tip>
+  Email and phone number only come through if the person shares them in their LinkedIn **Contact info**, which is usually only visible to their 1st-degree connections. If the fields stay empty, add the details yourself later from their [applicant profile](/hiring/applicants/applicant-profile).
+</Tip>
+
+## Add people from a list
+
+Use this to source quickly, for example from your **My Network → Connections** page or from LinkedIn search results.
+
+<Steps>
+  <Step title="Open the Import from LinkedIn tab">
+    In the extension panel, click **Import from LinkedIn**.
+  </Step>
+  <Step title="Choose where they should go">
+    At the top of the tab, pick the **job** they're for and the **talent pool** to add them to. New people you queue up use these choices.
+  </Step>
+  <Step title="Click + Add to Enfue next to each person">
+    On the LinkedIn page, click **\+ Add to Enfue** next to each person you want. The button changes to **Added**, and the person appears as a card in the extension panel with their photo, name, and headline.
+  </Step>
+  <Step title="Adjust each person if needed">
+    Each card has its own job and talent pool, so you can change them person by person. Click **×** on a card to remove someone, or **Clear all** to empty the list.
+  </Step>
+  <Step title="Add them to Enfue">
+    Click **Add** on each card to add that person to Enfue.
+  </Step>
+</Steps>
+
+<Note>
+  People added from a list come in with what's shown on LinkedIn: their name, photo, headline, and profile link. To pull in their email and phone number too, use [Add a candidate from their profile](#add-a-candidate-from-their-profile).
+</Note>
+
+## Add by LinkedIn URL
+
+In the **Import from LinkedIn** tab, paste the person's profile link, for example `https://www.linkedin.com/in/username`, into **LinkedIn URL**. Pick the job and talent pool, then click **Add**.
+
+You can do the same from inside Enfue, without the extension. See [Add from LinkedIn](/hiring/applicants/add-applicants#add-from-linkedin).
+
+## After you add someone
+
+- The candidate appears in [Applicants](/hiring/applicants/overview), and in the job and [talent pool](/hiring/talent-pools) you chose.
+- Like every applicant in a job, they get an [AI match score](/hiring/applicants/ai-review) for the job you picked.
+- If the same person ends up in Enfue twice, you can clean it up in [Duplicates](/hiring/jobs/duplicates).
+
+<Tip>
+  Contacting people you sourced? Treat their details with care, and only reach out about real opportunities. A short, personal message works far better than a template.
+</Tip>
+
+## Related
+
+<CardGroup cols={3}>
+  <Card title="Adding applicants" icon="user-plus" href="/hiring/applicants/add-applicants">
+    Every other way to get candidates into Enfue.
+  </Card>
+
+  <Card title="LinkedIn" icon="linkedin" href="/integrations/linkedin">
+    Everything Enfue does with LinkedIn.
+  </Card>
+
+  <Card title="Talent Pools" icon="users-rectangle" href="/hiring/talent-pools">
+    Organize the people you source.
+  </Card>
+</CardGroup>
