@@ -9,24 +9,59 @@ Post your jobs on the job boards you already use, and the applicants land in Enf
 
 ## Supported job boards
 
-| Region | Job boards |
+Job boards connect to Enfue in one of two ways. Check which one applies to yours before you post.
+
+| Job board | How it connects |
 | --- | --- |
-| **Vietnam** | VietnamWorks, TopCV, ITviec, TopDev, CareerViet, Vieclam24h |
-| **International** | Indeed, Glassdoor, Jobstreet, Seek |
+| **ITviec**, **TopCV** | [Your job board account](#itviec-and-topcv-connect-your-account). You must enter your login for that job board in Enfue. |
+| **VietnamWorks**, **TopDev**, **CareerViet**, **Vieclam24h** | [The job's Enfue email address](#all-other-job-boards-use-the-job-email). Nothing to log in to. |
+| **Indeed**, **Glassdoor**, **Jobstreet**, **Seek** | [The job's Enfue email address](#all-other-job-boards-use-the-job-email). Nothing to log in to. |
 
-## How it works
+## ITviec and TopCV: connect your account
 
-Every job in Enfue has its own email address, for example `job+acmetech_xxxx@enfue.com`.
+ITviec and TopCV don't forward applications by email. Enfue retrieves applicants directly from your account on these job boards, so it needs your account login for each one.
+
+<Warning>
+  **No login, no applicants.** Until you enter your ITviec or TopCV account details in Enfue, applicants who apply on those job boards are **not** brought into Enfue. They stay on the job board, and you won't see them in your applicant list, pipeline, or reports.
+</Warning>
+
+<Steps>
+  <Step title="Open Applicant Source Management">
+    Go to **Settings → Applicant Source Management**.
+  </Step>
+  <Step title="Check the Credential column">
+    Find **ITviec** and **TopCV** in the list. The **Credential** column shows:
+
+    - **Required**: Enfue doesn't have your login yet, so no applicants are being retrieved.
+    - **Connected**: your account is linked, and new applicants are brought into Enfue automatically.
+  </Step>
+  <Step title="Enter your account details">
+    For each job board marked **Required**, click the pencil in the **Action** column and enter the login you use for that job board's employer account. Then save.
+  </Step>
+  <Step title="Confirm it says Connected">
+    Make sure the **Credential** column now shows **Connected**.
+  </Step>
+</Steps>
+
+See [Applicant sources](/settings/applications/applicant-source-management#manage-your-sources) for more on this screen.
+
+<Tip>
+  If you change your password on ITviec or TopCV, update it in Enfue too. Otherwise the connection stops working and new applicants stop arriving.
+</Tip>
+
+## All other job boards: use the job email
+
+Every other job board works without logging in. Every job in Enfue has its own email address, for example `job+acmetech_xxxx@enfue.com`, and the job board sends applications to it.
 
 1. Open the job and go to its **Integrations** tab.
 2. Copy the address under **Receive applicants from other job boards**.
-3. When you post the job on a job board, enter this address as the place where applications should be sent.
+3. When you post the job on the job board, enter this address as the place where applications should be sent.
 
 Applications sent there are added to the job automatically. See [Receive applicants from other job boards](/hiring/jobs/job-integrations#receive-applicants-from-other-job-boards).
 
-## Job boards that connect with your account
-
-Some job boards, such as **ITviec** and **TopCV**, can connect to Enfue with your account on that job board. You can see and manage these connections in **Settings → Applicant Source Management**, in the **Credential** column: **Connected** once it's set up, or **Required** if it still needs your account details. See [Applicant sources](/settings/applications/applicant-source-management#manage-your-sources).
+<Note>
+  Each job has its own email address. Use the address of the job you're posting, so applicants land in the right job.
+</Note>
 
 ## Add more job boards as sources
 
