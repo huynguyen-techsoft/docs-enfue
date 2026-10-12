@@ -39,6 +39,8 @@
           "get-started/sign-up",
           "quickstart",
           "get-started/how-enfue-works",
+          "get-started/hiring-workflow",
+          "get-started/ai-in-enfue",
           {
             "group": "Onboarding",
             "icon": "list-check",
