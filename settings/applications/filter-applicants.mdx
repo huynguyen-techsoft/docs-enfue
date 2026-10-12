@@ -1,0 +1,93 @@
+---
+title: "Filter applicants"
+sidebarTitle: "Filter applicants"
+description: "Find exactly the applicants you need by combining Enfue's built-in filters with filters on your own custom fields."
+icon: "filter"
+---
+
+Enfue gives you two kinds of filters, and you can use them together:
+
+- **Built-in filters** for the information Enfue tracks for every applicant, such as job, stage, assignee, source, and tags.
+- **Custom field filters** for the information *you* decided to collect, such as level, years of experience, or English proficiency. See [Custom fields for applicants](/settings/applications/custom-fields-for-applicants).
+
+Combine them to answer precise questions, for example: "Which senior applicants from LinkedIn, with good English, are still active for the Backend Developer job?"
+
+## Where you can filter
+
+| Page | What you're filtering | Custom field filters |
+| --- | --- | --- |
+| [Applicants](/hiring/applicants/overview#search-and-filter) | Every applicant, across all jobs | Yes |
+| [Talent Pools](/hiring/talent-pools#filter-the-pool) | The applicants in one pool | Yes |
+| [Tasks](/hiring/tasks#filter-your-tasks) | Applicants waiting for your decision | Built-in filters |
+| [Pipeline](/hiring/pipeline) | Applicants on the Kanban board | Built-in filters |
+
+## Built-in filters
+
+### In the toolbar
+
+| Filter | Use it to |
+| --- | --- |
+| **Search** | Find someone by name, email address, or phone number. |
+| **Jobs** | Show applicants for one or more jobs. |
+| **Stages** | Show applicants in one or more stages. You can also click a stage box above the table. |
+| **Assignees** | Show applicants assigned to particular team members, for example yourself. |
+
+### In the Filters panel
+
+Click **Filters** to open the panel. The options depend on the page:
+
+| Filter | Use it to |
+| --- | --- |
+| **Active applicants** and **Inactive applicants** | Show applicants still in your process, disqualified applicants, or both. |
+| **Flagged applicants** | Show applicants your team has flagged. |
+| **Applicants with evaluations** | Show applicants with at least one evaluation. |
+| **Updates** | Show applicants updated **Today**, in the **Last 3d**, or in the **Last 7d**. |
+| **Tags** | Show applicants with a particular [tag](/hiring/applicants/tags). |
+| **Source** | Show applicants from a particular channel, such as **LinkedIn** or **ITViec**. See [Applicant sources](/settings/applications/applicant-source-management). |
+| **Applied Duration** and **Updated Duration** | Show applicants who applied, or were last updated, between two dates. |
+
+## Custom field filters
+
+Every [custom field for applicants](/settings/applications/custom-fields-for-applicants) you create can also be used as a filter, whether applicants fill it in on the application form or your team fills it in.
+
+<Steps>
+  <Step title="Open the filters">
+    On the Applicants page or in a talent pool, click **Filters**.
+  </Step>
+  <Step title="Choose a custom field">
+    Pick the field you want to filter by, for example **Your Level** or **Candidate ranking**.
+  </Step>
+  <Step title="Choose the values">
+    Pick the answers you're looking for. What you can choose depends on the field's type.
+  </Step>
+</Steps>
+
+| Field type | Example field | Example filter |
+| --- | --- | --- |
+| **Multi select** | Your Level | Applicants whose level is **Senior** or **Lead** |
+| **Star rating** | English proficiency | Applicants rated highly for English |
+| **Date** | Available from | Applicants available within a date range |
+| **Text** | Years of relevant experience | Applicants whose answer contains particular words |
+
+<Tip>
+  Choose **Multi select** or **Star rating** when you create a field you'll want to filter on. Fixed answers are much easier to filter than free text, where everyone writes their answer differently.
+</Tip>
+
+## Combine filters
+
+All the filters you choose apply together, so each one narrows the list further. The count on the right, for example **12/358 applicants**, shows how many match out of the total. The number on each button shows how many options are selected in it.
+
+A few useful combinations:
+
+| You want to find | Combine |
+| --- | --- |
+| Strong candidates for a new senior role | **Your Level**: Senior + **Active applicants** + sort by **Match score** |
+| Who's waiting on you today | **Assignees**: you + **Updates**: Today |
+| Job fair candidates with good English | **Tags**: `job-fair-oct-2026` + **English proficiency** rating |
+| Past applicants worth another look | Open a talent pool, then **Inactive applicants** + your custom fields |
+
+Click **Clear all** to remove every filter and start again.
+
+<Note>
+  Filters only work on information you've recorded. Keep sources, tags, and custom fields filled in, so your filters find everyone they should.
+</Note>

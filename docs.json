@@ -200,6 +200,7 @@
               "settings/applications/applicant-stages",
               "settings/applications/email-templates",
               "settings/applications/custom-fields-for-applicants",
+              "settings/applications/filter-applicants",
               "settings/applications/custom-fields-for-evaluation",
               "settings/applications/application-form",
               "settings/applications/applicant-source-management",
