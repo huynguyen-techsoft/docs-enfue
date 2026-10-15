@@ -1,0 +1,62 @@
+---
+title: "Nguồn ứng viên"
+sidebarTitle: "Quản lý nguồn ứng viên"
+description: "Ý nghĩa của từng nguồn ứng viên, nơi bạn thấy nguồn trong Enfue và cách quản lý danh sách nguồn đội ngũ của bạn có thể dùng."
+icon: "signs-post"
+---
+
+Mỗi ứng viên trong Enfue đều có một **source** (nguồn): kênh mà họ đến từ đó. Enfue tự động ghi nhận nguồn khi ai đó ứng tuyển qua một kênh đã kết nối, và bạn cũng có thể tự đặt hoặc thay đổi nguồn. Nguồn là dữ liệu cho các biểu đồ nguồn trong [Báo cáo](/vi/hiring/reports) và trên trang [Hired](/vi/hiring/hired), giúp bạn thấy kênh nào thật sự hiệu quả.
+
+## Các nguồn có sẵn
+
+| Nguồn | Ứng viên đến từ đâu |
+| --- | --- |
+| **Approaching** | Đội ngũ của bạn chủ động liên hệ trực tiếp với họ. Đây là giá trị mặc định khi bạn [thêm ứng viên thủ công](/vi/hiring/applicants/add-applicants). |
+| **CareerPage** | [Trang tuyển dụng trên Enfue](/vi/workplace/career-page) của công ty bạn. |
+| **Event** | Bạn gặp họ tại một sự kiện, chẳng hạn hội chợ việc làm hoặc buổi giao lưu tại trường. |
+| **Facebook** | Một việc làm bạn chia sẻ trên Facebook. |
+| **ITViec** | Trang việc làm ITviec. Cần thông tin đăng nhập tài khoản ITviec của bạn. Xem cảnh báo trong mục Quản lý nguồn của bạn. |
+| **JobSite** | Website tuyển dụng riêng của công ty bạn, ví dụ qua [biểu mẫu ứng tuyển nhúng trên website](/vi/hiring/jobs/job-integrations). |
+| **LinkedIn** | LinkedIn, ví dụ qua [liên kết ứng tuyển LinkedIn Jobs](/vi/hiring/jobs/job-integrations) của bạn. |
+| **Referral** | Có người giới thiệu họ, chẳng hạn một đồng nghiệp. |
+| **TopCV** | Trang việc làm TopCV. Cần thông tin đăng nhập tài khoản TopCV của bạn. Xem cảnh báo trong mục Quản lý nguồn của bạn. |
+
+<Note>
+  **CareerPage** và **JobSite** rất dễ nhầm lẫn. **CareerPage** là trang của công ty bạn trên Enfue, tại `app.enfue.com/<your-company>`. **JobSite** là website riêng của công ty bạn.
+</Note>
+
+## Bạn sẽ thấy nguồn ở đâu
+
+- Trên từng ứng viên, dưới dạng biểu tượng trong cột **Source** của [Applicants](/vi/hiring/applicants/overview) và [Tasks](/vi/hiring/tasks), và trong [phần đầu hồ sơ ứng viên](/vi/hiring/applicants/applicant-profile), nơi bạn có thể nhấn vào để thay đổi.
+- Trong bộ lọc **Source** trên Applicants, Tasks và [Talent Pools](/vi/hiring/talent-pools).
+- Trong **Source Breakdown** ở [Báo cáo](/vi/hiring/reports) và **Hiring by Source** trên trang [Hired](/vi/hiring/hired).
+
+## Quản lý nguồn của bạn
+
+Mở **Settings → Applicant Source Management** để quản lý danh sách nguồn mà đội ngũ của bạn có thể chọn.
+
+| Cột | Hiển thị gì |
+| --- | --- |
+| **Name** | Nguồn, kèm biểu tượng, ví dụ **LinkedIn** hoặc **ITViec**. |
+| **Status** | **Enabled** nếu đội ngũ của bạn có thể dùng nguồn này. |
+| **Credential** | Với các trang việc làm kết nối với Enfue bằng tài khoản của bạn: **Connected** khi đã thiết lập xong, hoặc **Required** nếu vẫn cần thông tin tài khoản. Dấu gạch ngang nghĩa là không cần kết nối. |
+| **Created Date** | Ngày nguồn được thêm. |
+| **Action** | Nhấn biểu tượng bút chì để sửa nguồn, hoặc thùng rác để xóa. |
+
+Dùng **All Status** và **All Credential** để lọc danh sách.
+
+<Warning>
+  **ITviec** và **TopCV** cần thông tin đăng nhập tài khoản của bạn trên trang việc làm đó. Khi cột **Credential** còn hiển thị **Required**, Enfue sẽ không lấy được ứng viên nào từ đó. Hãy nhập thông tin đăng nhập để cột hiển thị **Connected**. Xem [Kết nối ITviec và TopCV](/vi/integrations/job-platforms). Các trang việc làm khác không cần đăng nhập: họ gửi hồ sơ ứng tuyển đến địa chỉ email Enfue của từng việc làm.
+</Warning>
+
+### Thêm nguồn
+
+1. Nhấn **Add Source**.
+2. Chọn một trong các **Predefined Sources**, chẳng hạn **Indeed**, **Glassdoor**, **Career Viet**, **VietnamWorks**, **JobStreet**, **YBOX** hoặc **Glints**. Hoặc tự nhập tên trong **Name**, ví dụ một trường đại học hoặc một công ty tuyển dụng.
+3. Đặt **Status** thành **Active**.
+4. Nhấn **Upload Icon** để thêm biểu tượng (không bắt buộc).
+5. Nhấn **Add**.
+
+<Tip>
+  Hãy thêm nguồn cho mọi kênh bạn thật sự dùng, không hơn, và giữ nguồn của từng ứng viên chính xác, đặc biệt với những ứng viên bạn tự thêm. Báo cáo chỉ cho bạn biết kênh nào hiệu quả khi nguồn được ghi đúng.
+</Tip>

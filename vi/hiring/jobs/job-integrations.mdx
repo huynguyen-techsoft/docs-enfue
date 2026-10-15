@@ -1,0 +1,77 @@
+---
+title: "Chia sẻ việc làm và nhận ứng viên"
+sidebarTitle: "Quảng bá việc làm"
+description: "Chia sẻ việc làm lên mạng xã hội, thu nhận ứng viên từ LinkedIn và các trang tuyển dụng khác, nhận hồ sơ qua email và nhúng việc làm vào website của bạn."
+icon: "share-nodes"
+---
+
+Tab **Integrations** (tích hợp) cung cấp mọi cách để đưa việc làm đến với ứng viên và tự động đưa hồ sơ ứng tuyển của họ về Enfue. Mở một việc làm từ **Hiring → Jobs** và nhấn tab **Integrations**.
+
+<Info>
+Ứng viên đến từ bất kỳ kênh nào dưới đây đều được tự động thêm vào tab [Applicants](/vi/hiring/jobs/job-applicants) của việc làm, kèm nguồn ứng viên để bạn so sánh các kênh trong [báo cáo việc làm](/vi/hiring/jobs/job-report).
+</Info>
+
+## Chia sẻ lên mạng xã hội
+
+Trong **Share on social**, nhấn **LinkedIn**, **Facebook** hoặc **Threads** để đăng việc làm lên mạng đó.
+
+## Nhận ứng viên từ LinkedIn Jobs
+
+LinkedIn không tự gửi ứng viên sang Enfue. Thay vào đó, bạn trỏ nút **Apply** của LinkedIn đến việc làm của bạn trên Enfue, để ứng viên ứng tuyển trên Enfue.
+
+<Steps>
+  <Step title="Tạo việc làm trong Enfue trước">
+    Tạo và lưu việc làm trong Enfue. Xem [Tạo và chỉnh sửa việc làm](/vi/hiring/jobs/create-a-job). Việc làm cần tồn tại trước, vì LinkedIn sẽ liên kết đến nó.
+  </Step>
+  <Step title="Sao chép liên kết Enfue của việc làm">
+    Mở tab **Integrations** của việc làm. Trong **Receive applicants from LinkedIn Jobs**, nhấn biểu tượng **copy** (sao chép) ở cuối liên kết.
+  </Step>
+  <Step title="Tạo việc làm trên LinkedIn">
+    Đăng cùng việc làm đó lên LinkedIn Jobs như bạn vẫn thường làm.
+  </Step>
+  <Step title="Dán liên kết Enfue làm cách ứng tuyển">
+    Khi LinkedIn hỏi ứng viên sẽ ứng tuyển bằng cách nào, hãy chọn chuyển họ đến một website bên ngoài và dán liên kết Enfue bạn đã sao chép làm URL ứng tuyển.
+  </Step>
+</Steps>
+
+<Warning>
+  Nếu bỏ qua bước cuối, ứng viên sẽ ứng tuyển ngay trên LinkedIn và **sẽ không xuất hiện trong Enfue**. Hãy đảm bảo tùy chọn ứng tuyển của bài đăng LinkedIn trỏ đến liên kết Enfue.
+</Warning>
+
+Ứng viên nhấn **Apply** trên LinkedIn sẽ được chuyển đến biểu mẫu ứng tuyển Enfue của bạn, và hồ sơ của họ được ghi nhận nguồn là LinkedIn. Nhấn **View this Youtube tutorial** bên dưới liên kết để xem video hướng dẫn, hoặc xem [LinkedIn](/vi/integrations/linkedin).
+
+## Nhận ứng viên từ các trang tuyển dụng khác
+
+Mỗi việc làm có một địa chỉ email riêng, hiển thị trong **Receive applicants from other job boards**.
+
+1. Nhấn biểu tượng **copy** để sao chép địa chỉ.
+2. Dùng địa chỉ này làm email liên hệ hoặc email nhận hồ sơ khi bạn đăng việc làm lên trang tuyển dụng khác.
+
+Khi trang tuyển dụng chuyển tiếp hồ sơ đến địa chỉ đó, Enfue sẽ tự động thêm ứng viên vào việc làm. Cách này hoạt động với Indeed, Glassdoor, Jobstreet, Seek, TopDev, VietnamWorks, CareerViet và Vieclam24h. Xem [Các trang tuyển dụng](/vi/integrations/job-platforms) để biết thêm.
+
+<Warning>
+  **ITviec** và **TopCV** không dùng email của việc làm. Enfue lấy ứng viên từ hai trang này bằng tài khoản của bạn trên đó, vì vậy bạn cần nhập thông tin đăng nhập trong **Settings → Applicant Source Management** trước. Xem [Kết nối ITviec và TopCV](/vi/integrations/job-platforms).
+</Warning>
+
+## Nhận hồ sơ ứng tuyển qua email
+
+Cũng email của việc làm đó hiển thị trong **Apply to this job by email**. Hãy chia sẻ trực tiếp với ứng viên, ví dụ trong một bài đăng mạng xã hội. Bất kỳ ai gửi hồ sơ đến địa chỉ này đều được tự động thêm vào danh sách ứng viên của việc làm.
+
+## Nhúng biểu mẫu việc làm vào website
+
+Trong **Job embedded form**, bạn sẽ thấy một đoạn mã HTML ngắn giúp đưa biểu mẫu ứng tuyển của việc làm này lên website của bạn.
+
+1. Nhấn biểu tượng **copy** để sao chép mã.
+2. Dán mã vào một trang trên website bằng khối HTML hoặc khối nhúng (embed).
+
+Đoạn mã có dạng như sau:
+
+```html
+<iframe src="https://app.enfue.com/job-form/..." width="100%" height="1000px" loading="lazy"></iframe>
+```
+
+Cách này hoạt động với WordPress, Wix, Squarespace, Webflow, Shopify, Framer, Hostinger, Duda, Weebly, Joomla và Drupal.
+
+<Tip>
+Nếu bạn muốn hiển thị tất cả việc làm đang mở trên một trang, hãy dùng [trang tuyển dụng](/vi/workplace/career-page) của bạn.
+</Tip>

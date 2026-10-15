@@ -1,0 +1,151 @@
+---
+title: "Đánh giá"
+sidebarTitle: "Yêu cầu và thực hiện đánh giá"
+description: "Mời người phỏng vấn và quản lý tuyển dụng đánh giá ứng viên, theo dõi ai đã phản hồi và xem đội ngũ của bạn chấm điểm ứng viên ra sao."
+icon: "star-half-stroke"
+---
+
+Đánh giá là cách đội ngũ của bạn ghi lại nhận xét về một ứng viên: điểm sao, đề xuất tuyển hay không, và một ghi chú bằng chữ. Trang **Evaluations** (đánh giá) liệt kê mọi đánh giá bạn đã yêu cầu và cho biết đánh giá đó đã được thực hiện hay chưa. Mở trang từ **Hiring → Evaluations** trong menu chính.
+
+## Evaluation Overview
+
+Bảng bên phải tóm tắt hoạt động đánh giá trong toàn bộ không gian làm việc của bạn:
+
+- **Total**: số đánh giá đã được yêu cầu. Vòng tròn cho biết có bao nhiêu đánh giá ở trạng thái **In Progress**, **Pending** và **Completed**.
+- **Average Score**: điểm trung bình của tiêu chí **Overall fit for the role** (mức độ phù hợp tổng thể với vị trí) trên các đánh giá đã hoàn thành, thang điểm 5, kèm số đánh giá được dùng để tính. Các tiêu chí khác, như **Technical Skills** hay **Communication**, không được tính vào.
+- **Top Interviewers**: những thành viên đã gửi nhiều đánh giá nhất. Con số **Peer review** cạnh mỗi tên là số đánh giá người đó đã gửi; những người phỏng vấn khác có thể đọc các đánh giá này trong tab **Peer review**. Nhấn **View all** để xem tất cả mọi người.
+
+### Trạng thái đánh giá
+
+Mỗi yêu cầu đánh giá đi qua ba trạng thái:
+
+| Trạng thái | Ý nghĩa |
+| --- | --- |
+| **In Progress** | Yêu cầu đã được gửi, người phỏng vấn chưa nộp nhưng vẫn còn thời gian. |
+| **Pending** | Đã quá hạn mà người phỏng vấn vẫn chưa nộp. Bạn cần nhắc lại những đánh giá này. |
+| **Completed** | Người phỏng vấn đã nộp đánh giá. |
+
+## Danh sách đánh giá
+
+| Cột | Nội dung hiển thị |
+| --- | --- |
+| **Candidate** | Ứng viên được đánh giá. |
+| **Job** | Việc làm mà ứng viên đã ứng tuyển. |
+| **Stage** | Giai đoạn tuyển dụng hiện tại của ứng viên. |
+| **Interviewer** | Người được mời đánh giá. |
+| **Requester** | Người đã yêu cầu đánh giá. |
+| **Match score** | Điểm phù hợp do AI chấm cho ứng viên, thang điểm 100. Xem [Hiểu điểm phù hợp AI](/vi/hiring/applicants/ai-review). |
+| **Status** | **In Progress**, **Pending** (đã quá hạn) hoặc **Completed**. Xem phần Trạng thái đánh giá. |
+| **Requested** | Thời điểm yêu cầu đánh giá. |
+
+Lọc danh sách bằng **Search**, **Jobs**, **Stages**, **Interviewer** và **Status**. Nhấn **Clear all** để xóa mọi bộ lọc. Con số bên phải, ví dụ **10/422**, cho biết có bao nhiêu đánh giá khớp với bộ lọc trên tổng số.
+
+<Tip>
+  Lọc theo **Status: Pending** để xem những đánh giá nào đã quá hạn, sau đó thêm bộ lọc **Interviewer** để biết cần nhắc ai trước khi ra quyết định tuyển dụng.
+</Tip>
+
+## Yêu cầu đánh giá
+
+Bạn có thể yêu cầu đánh giá từ trang **Evaluations**, từ thẻ ứng viên trong [Pipeline](/vi/hiring/pipeline), từ cột **Action** trên trang [Applicants](/vi/hiring/applicants/overview), hoặc từ [hồ sơ ứng viên](/vi/hiring/applicants/applicant-profile). Những người phỏng vấn bạn thêm vào khi [lên lịch phỏng vấn](/vi/hiring/interviews) sẽ tự động được mời đánh giá.
+
+Nhấn **Request Evaluations** và chọn cách gửi yêu cầu.
+
+<Tip>
+  Hãy thêm những người thường xuyên phỏng vấn cho bạn làm [người phỏng vấn](/vi/settings/users/interviewers) trước, để bạn chỉ cần một cú nhấp là chọn được họ.
+</Tip>
+
+<Tabs>
+  <Tab title="Yêu cầu qua email">
+    Enfue gửi email cho từng người phỏng vấn kèm đường dẫn tới phiếu đánh giá.
+
+    <Steps>
+      <Step title="Chọn ứng viên">
+        Trong mục **Applicants**, nhấn **Add** và chọn một hoặc nhiều ứng viên.
+      </Step>
+      <Step title="Chọn người phỏng vấn">
+        Trong mục **Interviewers**, nhấn **Add** và chọn những người sẽ đánh giá.
+      </Step>
+      <Step title="Thêm người nhận CC (không bắt buộc)">
+        Trong mục **CC**, chọn người từ danh bạ hoặc nhập địa chỉ email, tối đa 20 người. Mỗi người nhận CC sẽ nhận một bản sao yêu cầu gửi tới từng người phỏng vấn. Những địa chỉ đã được mời sẽ được bỏ qua.
+      </Step>
+      <Step title="Chọn những gì người phỏng vấn được xem">
+        Trong mục **Evaluation options**, đánh dấu **Show all comments about this applicant** và/hoặc **Show evaluation history and documents**.
+      </Step>
+      <Step title="Gửi">
+        Nhấn **Request Evaluations**.
+      </Step>
+    </Steps>
+  </Tab>
+  <Tab title="Yêu cầu qua đường dẫn">
+    Enfue tạo một đường dẫn để bạn chia sẻ theo bất kỳ cách nào, ví dụ qua Zalo, Slack hoặc Teams, mà không cần gửi email. Cách này hữu ích với các quản lý tuyển dụng ngoài đội ngũ nhân sự, những người ít khi kiểm tra email.
+
+    <Steps>
+      <Step title="Chọn ứng viên, người phỏng vấn và tùy chọn">
+        Điền **Applicants**, **Interviewers** và **Evaluation options** giống như khi yêu cầu qua email.
+      </Step>
+      <Step title="Tạo đường dẫn">
+        Enfue tạo một đường dẫn, chẳng hạn `https://app.enfue.com/applicant/evaluation/...`, đồng thời hiển thị mã và ngày hết hạn. Theo mặc định, đường dẫn hết hạn sau **3 ngày**. Quản trị viên có thể thay đổi thời hạn hiệu lực của đường dẫn.
+      </Step>
+      <Step title="Chia sẻ">
+        Nhấn **Copy** cạnh đường dẫn, hoặc **Copy all** để sao chép tất cả đường dẫn cùng lúc, rồi gửi cho người phỏng vấn. Nhấn **Generate another link** để tạo đường dẫn mới.
+      </Step>
+    </Steps>
+
+    <Warning>
+      Bất kỳ ai có đường dẫn đều có thể mở phiếu đánh giá cho đến khi hết hạn, bao gồm cả CV và thông tin của ứng viên. Chỉ chia sẻ đường dẫn với người cần đánh giá.
+    </Warning>
+  </Tab>
+</Tabs>
+
+## Thực hiện đánh giá (dành cho người phỏng vấn)
+
+Khi mở đường dẫn, người phỏng vấn sẽ thấy một trang có tên công ty bạn ở trên cùng. Họ không cần tự tìm ứng viên trong Enfue.
+
+- **Bên trái**: **thư xin việc** và **CV** của ứng viên. Trình xem CV cho phép phóng to, xoay, chuyển trang, tải xuống và xem toàn màn hình.
+- **Bên phải**: tên ứng viên, việc làm, ngày ứng tuyển và giai đoạn hiện tại (**Stage**), cùng năm tab.
+
+| Tab | Nội dung hiển thị |
+| --- | --- |
+| **Assessment** | Phiếu đánh giá cần điền. |
+| **AI Review** | Điểm phù hợp AI của ứng viên, phân tích theo từng yếu tố và tóm tắt của AI. |
+| **Documents** | Các tài liệu khác ứng viên đã đính kèm. |
+| **Comments** | Bình luận của đội ngũ bạn về ứng viên, nếu tùy chọn **Show all comments** được bật. |
+| **Peer review** | Đánh giá từ những người phỏng vấn khác, nếu tùy chọn **Show evaluation history** được bật. |
+
+Nếu được mời đánh giá nhiều ứng viên, bộ đếm ở trên cùng (ví dụ **1/22**) cho biết họ đang ở ứng viên thứ mấy, và các nút **Previous**, **Next** giúp chuyển giữa các ứng viên.
+
+### Điền phiếu đánh giá
+
+<Steps>
+  <Step title="Chấm điểm ứng viên">
+    Cho từ 1 đến 5 sao cho mỗi tiêu chí, ví dụ **Technical Skills**, **Communication**, **Culture Fit**, **English Proficiency** và **Overall fit for the role**.
+  </Step>
+  <Step title="Điền các trường khác">
+    Ví dụ, chọn **Level** (cấp bậc) của ứng viên. Các trường hiển thị tùy thuộc vào cách thiết lập không gian làm việc của bạn.
+  </Step>
+  <Step title="Đưa ra đề xuất">
+    Nhấn **Recommend** hoặc **Do not Recommend**. Đây là mục bắt buộc.
+  </Step>
+  <Step title="Viết ghi chú đánh giá">
+    Giải thích lý do của bạn trong ô **Evaluation note**, tối đa 5.000 ký tự. Đây là mục bắt buộc.
+  </Step>
+  <Step title="Đính kèm tệp (không bắt buộc)">
+    Nhấn **Attach file** để thêm, ví dụ, kết quả bài kiểm tra hoặc ghi chú phỏng vấn.
+  </Step>
+  <Step title="Nộp">
+    Nhấn **Submit Evaluation**. Trạng thái của đánh giá chuyển sang **Completed** và đánh giá sẽ xuất hiện trong hồ sơ ứng viên.
+  </Step>
+</Steps>
+
+<Tip>
+  Một ghi chú đánh giá tốt sẽ nói rõ _tại sao_. "Thể hiện kỹ năng React tốt trong bài làm trực tiếp, nhưng chưa giải thích được kiến thức .NET cơ bản" hữu ích hơn nhiều cho quản lý tuyển dụng so với "Ứng viên tốt."
+</Tip>
+
+## Đánh giá hiển thị ở đâu
+
+- Trong hồ sơ ứng viên, ở mục **Evaluations**.
+- Dưới dạng số lượt thích và không thích trên bảng [Applicants](/vi/hiring/applicants/overview) và thẻ trong [Pipeline](/vi/hiring/pipeline): mỗi lượt tương ứng với một **Recommend** hoặc **Do not Recommend**.
+
+## Tùy chỉnh phiếu đánh giá
+
+Các tiêu chí và trường trong phiếu đánh giá được thiết lập chung cho toàn bộ không gian làm việc tại [Custom Fields for Evaluation](/vi/settings/applications/custom-fields-for-evaluation).

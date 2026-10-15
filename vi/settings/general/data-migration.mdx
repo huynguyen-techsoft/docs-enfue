@@ -1,0 +1,62 @@
+---
+title: "Chuyển dữ liệu"
+sidebarTitle: "Nhập dữ liệu từ hệ thống khác"
+description: "Chuyển ứng viên, CV và đánh giá vào Enfue từ bảng tính, tệp PDF hoặc hệ thống khác."
+icon: "file-import"
+---
+
+**Data Migration** (chuyển dữ liệu) giúp đưa hàng loạt ứng viên sẵn có vào Enfue, chẳng hạn khi bạn chuyển từ một hệ thống tuyển dụng khác hoặc từ các bảng tính. Bạn cũng có thể nhập vào một việc làm cụ thể từ [tab Data Migration](/vi/hiring/jobs/data-migration) của việc làm đó.
+
+Mở **Settings → Data Migration** và chọn một trong ba kiểu nhập dữ liệu.
+
+<Tabs>
+  <Tab title="CV dạng PDF">
+    Nhập CV dưới dạng tệp PDF, từng tệp một hoặc gộp trong một tệp `.zip`.
+
+    1. Chọn **Resume PDFs (.zip/.pdf)**.
+    2. Trong **Select job to import the data**, chọn việc làm mà các ứng viên này đã ứng tuyển.
+    3. Kéo thả các tệp PDF hoặc ZIP, hoặc nhấn **browse**.
+    4. Kiểm tra các tệp trong bảng bên phải. Dùng **All**, **PDF** và **ZIP** để lọc, và **Search uploaded files** để tìm một tệp.
+    5. Nhấn **Upload**.
+
+    Enfue sẽ đọc từng CV và tạo một ứng viên từ đó.
+  </Tab>
+  <Tab title="Bảng tính ứng viên">
+    Nhập danh sách ứng viên từ tệp `.csv`, `.xls` hoặc `.xlsx`.
+
+    1. Chọn **Candidate Spreadsheet (.csv/.xls/.xlsx)**.
+    2. Chưa biết cách trình bày tệp? Nhấn **Download an example template**, rồi sao chép thông tin ứng viên vào mẫu đó.
+    3. Kéo thả tệp, hoặc nhấn **browse**.
+    4. Đánh dấu **Invite them to join Enfue and chat with you directly** nếu bạn muốn mời các ứng viên này tạo tài khoản Enfue. Khi họ tham gia, bạn có thể nhắn tin cho họ trong [Messenger](/vi/hiring/messenger).
+    5. Nhấn **Upload**.
+  </Tab>
+  <Tab title="CV và đánh giá">
+    Chuyển ứng viên cùng với đánh giá của đội ngũ về họ, chẳng hạn từ hệ thống cũ của bạn.
+
+    1. Chọn **CVs & Evaluations (.zip)**.
+    2. Trong **Select job to import the data**, chọn việc làm.
+    3. Chuẩn bị một tệp `.zip` có cấu trúc như bên dưới.
+    4. Kéo thả tệp ZIP, hoặc nhấn **browse**.
+    5. Nhấn **Upload**.
+
+    Tệp ZIP phải chứa một thư mục cho mỗi ứng viên, và thư mục của mỗi ứng viên phải có **CV dạng PDF** và **đánh giá dạng tệp Word**:
+
+    ```text
+    Front-End Engineer.zip
+    └── Front-End Engineer/
+        ├── 1 - Linh Nguyen/
+        │   ├── Evaluation note.docx
+        │   └── Resume_Linh-Nguyen_FE.pdf
+        ├── 2 - Minh Tran/
+        │   ├── Evaluation note.docx
+        │   └── Resume_Minh-Tran_FE.pdf
+        └── 3 - Mai Pham/
+            ├── Evaluation note.docx
+            └── Resume_Mai-Pham_FE.pdf
+    ```
+  </Tab>
+</Tabs>
+
+<Tip>
+  Sau khi nhập số lượng lớn, hãy kiểm tra tab [Duplicates](/vi/hiring/jobs/duplicates) của việc làm để tìm những ứng viên đã có sẵn trong Enfue.
+</Tip>

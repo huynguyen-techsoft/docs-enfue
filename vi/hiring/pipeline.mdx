@@ -1,0 +1,150 @@
+---
+title: "Pipeline"
+sidebarTitle: "Chuyển ứng viên qua các giai đoạn"
+description: "Xem ứng viên của mọi việc làm trên một bảng, nhóm theo việc làm và giai đoạn, và thao tác nhanh trên thẻ của bất kỳ ứng viên nào."
+icon: "table-columns"
+---
+
+Trang **Pipeline** (quy trình tuyển dụng) hiển thị ứng viên dưới dạng thẻ trên một bảng. Mỗi cột là một giai đoạn tuyển dụng, mỗi hàng là một việc làm. Đây là cách nhanh nhất để biết từng ứng viên đang ở đâu trên tất cả việc làm đang mở. Mở trang từ **Hiring → Pipeline** trong menu chính.
+
+## Bố cục của bảng
+
+- **Cột** là các giai đoạn tuyển dụng, như **Applied**, **Matching Interview**, **Ability Interview**, **Offering** và **Hired**. Con số ở đầu mỗi cột là tổng số ứng viên ở giai đoạn đó trên tất cả việc làm đang hiển thị.
+- **Hàng** là các việc làm. Phần đầu mỗi hàng hiển thị chức danh, địa điểm, huy hiệu chế độ hiển thị (ví dụ **Public**) và số ứng viên của việc làm. Nhấn mũi tên ở đầu hàng để thu gọn hoặc mở rộng.
+
+Con số ở góc trên bên phải, ví dụ **91/104 applicants**, cho biết có bao nhiêu ứng viên khớp với bộ lọc trên tổng số.
+
+<Note>
+Các giai đoạn được lấy từ cài đặt không gian làm việc. Luôn có năm giai đoạn, và bạn có thể đổi tên chúng trong [Applicant Stages](/vi/settings/applications/applicant-stages).
+</Note>
+
+## Đọc thẻ ứng viên
+
+Mỗi thẻ hiển thị:
+
+- **Tên và ảnh** của ứng viên.
+- **Điểm phù hợp** dạng phần trăm ở góc trên bên phải. Xem [Điểm phù hợp](/vi/hiring/jobs/job-applicants).
+- **Thời điểm cập nhật gần nhất**, ví dụ **2d** (2 ngày trước) hoặc **1w** (1 tuần trước).
+- **Mũi tên kép** màu đỏ nếu ứng viên được đánh dấu **ưu tiên cao**.
+- **Ngày phỏng vấn tiếp theo**, ví dụ **Oct 13**, nếu đã có lịch.
+- **Đánh giá** của họ: số lượt đánh giá tiêu cực (ngón cái hướng xuống) và tích cực (ngón cái hướng lên), khi đã có.
+- Ảnh của **người phụ trách** ở góc dưới bên phải.
+
+Nhấn vào thẻ để mở hồ sơ ứng viên.
+
+## Chuyển ứng viên sang giai đoạn khác
+
+Kéo thẻ ứng viên và thả vào cột khác. Bạn có thể chuyển ứng viên tới giai đoạn tiếp theo hoặc lùi về giai đoạn trước. Số lượng ở đầu bảng được cập nhật ngay lập tức.
+
+<Tip>
+  Bạn cũng có thể chuyển ứng viên từ hồ sơ của họ bằng **Next stage**. Xem [Hồ sơ ứng viên](/vi/hiring/applicants/applicant-profile).
+</Tip>
+
+## Thao tác nhanh trên thẻ
+
+Di chuột lên thẻ để hiện một hàng nút thao tác bên dưới.
+
+| Nút | Thao tác | Chức năng |
+| --- | --- | --- |
+| Lịch | **Schedule appointment** | Đặt lịch phỏng vấn với ứng viên. |
+| Ngón cái lên/xuống | **Quick evaluation** | Gửi đánh giá của bạn về ứng viên. |
+| Máy bay giấy | **Request Evaluations** | Đề nghị đồng nghiệp đánh giá ứng viên. |
+| Hình người | **Change assignee** | Giao ứng viên cho người khác phụ trách. |
+| Lá cờ | **High priority** | Đánh dấu ứng viên ưu tiên cao. Khi đó thẻ của họ hiện mũi tên kép màu đỏ. |
+| Vòng tròn có gạch chéo | **Disqualify** | Loại ứng viên khỏi quy trình tuyển dụng. |
+
+Các thao tác này cũng có trong cột **Action** trên trang [Applicants](/vi/hiring/applicants/overview).
+
+### Đặt lịch phỏng vấn
+
+<Steps>
+  <Step title="Mở biểu mẫu">
+    Di chuột lên thẻ và nhấn **Schedule appointment**. Bảng **Schedule interview** mở ra với tên và email của ứng viên ở trên cùng.
+  </Step>
+  <Step title="Chọn thời gian">
+    Chọn **Date**, **Start time** và **End time**.
+  </Step>
+  <Step title="Thêm người phỏng vấn">
+    Trong **Interviewers**, nhấn **Add** và chọn những người sẽ phỏng vấn. Họ sẽ được yêu cầu gửi đánh giá sau buổi phỏng vấn.
+
+    Trong **Evaluation options**, quyết định người phỏng vấn được xem những gì:
+    - **Show all comments about this applicant**
+    - **Show evaluation history and documents**: các đánh giá trước đó và tài liệu đính kèm.
+  </Step>
+  <Step title="Chọn hình thức">
+    Chọn **In-person** (trực tiếp) hoặc **Video call** (gọi video). Với phỏng vấn trực tiếp, hãy kiểm tra **Location** (địa chỉ văn phòng được điền sẵn) và có thể chọn phòng trong **Book meeting room**. Phòng họp được thiết lập trong [Rooms](/vi/settings/users/rooms).
+  </Step>
+  <Step title="Mô tả buổi phỏng vấn">
+    Chọn mẫu phỏng vấn trong **Use interview template**, hoặc tự nhập **Title** và **Description**. Tiêu đề là bắt buộc.
+  </Step>
+  <Step title="Lưu">
+    Lưu lịch hẹn. Lịch hẹn hiển thị trên thẻ dưới dạng ngày và trong trang [Interviews](/vi/hiring/interviews).
+  </Step>
+</Steps>
+
+### Gửi đánh giá nhanh
+
+Di chuột lên thẻ và nhấn **Quick evaluation**. Điền biểu mẫu đánh giá, có thể gồm chấm sao (ví dụ **Technical Skills**, **Communication**, **Culture Fit** và **Overall fit for the role**) và các trường khác mà không gian làm việc của bạn sử dụng.
+
+Hai mục luôn bắt buộc:
+
+- **Overall Recommendation**: nhấn **Recommend** hoặc **Do not Recommend**.
+- **Evaluation note**: một đoạn giải thích ngắn.
+
+Các trường trong biểu mẫu này được thiết lập trong [Custom Fields for Evaluation](/vi/settings/applications/custom-fields-for-evaluation).
+
+### Đề nghị đồng nghiệp đánh giá
+
+1. Di chuột lên thẻ và nhấn **Request Evaluations**.
+2. Chọn cách gửi yêu cầu: **Request via Email** hoặc **Request via Link**.
+3. Trong **Interviewers**, nhấn **Add** và chọn người sẽ đánh giá ứng viên.
+4. Nếu muốn, thêm người vào **CC** (tối đa 20). Mỗi người sẽ nhận một bản sao yêu cầu. Bạn có thể chọn từ danh bạ hoặc nhập địa chỉ email.
+5. Chọn những gì người phỏng vấn được xem trong **Evaluation options**.
+6. Nhấn **Request Evaluations**.
+
+### Đổi người phụ trách
+
+Di chuột lên thẻ và nhấn **Change assignee**. Chọn người mới trong **Assignee**, hoặc nhấn **Assign to me**.
+
+### Loại ứng viên
+
+1. Di chuột lên thẻ và nhấn **Disqualify**.
+2. Chọn **Disqualified reason** (lý do loại). Các lý do được lấy từ [Disqualified Reasons](/vi/settings/applications/disqualified-reasons).
+3. Nhấn **Save**.
+
+<Warning>
+Loại ứng viên sẽ đưa họ ra khỏi quy trình tuyển dụng đang chạy. Để tìm lại, hãy dùng bộ lọc **Inactive applicants** trên trang [Applicants](/vi/hiring/applicants/overview). Bạn đổi ý? Xem [Loại và khôi phục ứng viên](/vi/hiring/disqualify).
+</Warning>
+
+## Tự động giao ứng viên mới
+
+Mỗi hàng việc làm có cài đặt **Auto assign to** ở bên phải, hiển thị ảnh của người được giao. Ứng viên mới của việc làm đó sẽ tự động được giao cho người này, nên không ai phải phân chia thủ công. Nhấn vào để chọn người khác.
+
+## Tìm kiếm và lọc
+
+| Công cụ | Chức năng |
+| --- | --- |
+| **Search** | Tìm ứng viên theo tên. |
+| **Jobs** | Chọn các việc làm bạn muốn hiển thị trên bảng. |
+| **Stages** | Chọn các giai đoạn (cột) bạn muốn xem. |
+| **Assignees** | Chỉ hiển thị ứng viên được giao cho những thành viên cụ thể. |
+| **Filters** | Mở bảng bộ lọc (xem bên dưới). |
+| **Clear all** | Xóa mọi bộ lọc. |
+
+Bảng **Filters** có hai nhóm.
+
+**Jobs**
+- **Public** / **Internal**: chỉ hiển thị việc làm công khai hoặc nội bộ.
+- **Job with applicants**: ẩn việc làm chưa có ứng viên. Bật theo mặc định.
+- **Location**: chỉ hiển thị việc làm ở một địa điểm nhất định.
+
+**Applicants**
+- **Flagged applicants**
+- **Applicants with evaluations**
+- **Hide not updated for 60+ days**: ẩn ứng viên không được ai cập nhật trong hơn 60 ngày, để bảng chỉ hiển thị những việc đang được xử lý. Bật theo mặc định.
+- **Updates**, **Tags** và **Due**
+- **Applied Duration**: hiển thị ứng viên ứng tuyển trong khoảng từ ngày bắt đầu đến ngày kết thúc.
+
+<Tip>
+Nếu không thấy ứng viên mà bạn nghĩ phải có trên bảng, hãy kiểm tra xem **Hide not updated for 60+ days** có đang bật không.
+</Tip>
